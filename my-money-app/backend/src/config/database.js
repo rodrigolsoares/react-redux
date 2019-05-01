@@ -10,3 +10,6 @@ mongoose.Error.messages.Number.min =
 
 mongoose.Error.messages.Number.max = 
     "O '{VALUE}' informado é maior que o limite máximo de {MAX}."
+
+mongoose.Error.messages.String.enum = 
+    " '{VALUE}' o valor não é valido para o atributo {PATH}."
