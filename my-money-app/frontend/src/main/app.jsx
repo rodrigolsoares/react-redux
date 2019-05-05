@@ -5,6 +5,7 @@ import React from 'react'
 import Header from '../common/template/header'
 import Sidebar from '../common/template/sidebar'
 import Footer from '../common/template/footer'
+import Routes from './routers'
 
 export default props => (
 
@@ -12,7 +13,7 @@ export default props => (
         <Header />
         <Sidebar />
         <div className='content-wrapper'>
-            <h1>APP</h1>
+            <Routes />
         </div>
         <Footer />
     </div>
