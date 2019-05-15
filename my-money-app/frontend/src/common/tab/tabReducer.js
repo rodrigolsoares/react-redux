@@ -4,9 +4,9 @@ export default (state = INITIAL_STATE, action ) => {
 
     switch (action.type) {
         case 'TAB_SELECTED' :
-            return {...status, selected: action.payload}
+            return {...state, selected: action.payload}
         case 'TAB_SHOWED' :
-            return {...status , visible : action.payload}
+            return {...state , visible : action.payload}
         default :
             return state
     }
