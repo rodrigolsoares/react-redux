@@ -7,7 +7,7 @@ export default props =>(
 
         <div className='form-group'>
             <label htmlFor={props.name}>{props.label}</label>
-            <input {...props.input} className='form-control' />
+            <input {...props.input} className='form-control' readOnly={props.readOnly} />
         </div>
 
     </Grid>
